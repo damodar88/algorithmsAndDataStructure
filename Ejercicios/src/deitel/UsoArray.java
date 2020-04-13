@@ -83,24 +83,5 @@ public class UsoArray {
 		    }
 		}//fin de main
 		
-	}//fin de la clase UsoArrays
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	}//fin de la clase UsoArrays	
 }
