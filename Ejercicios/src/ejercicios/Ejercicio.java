@@ -13,10 +13,6 @@ public class Ejercicio {
 		return Arrays.binarySearch(arregloIntGloval, valor);
 	}
 	
-	public int  copiarArray( int  valor ) {
-		
-		return System.arraycopy( arregloIntGloval, 0, arregloCopy, 0, arregloIntGloval.length  );
-	}
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -45,7 +41,14 @@ public class Ejercicio {
 			int numeroBuscarArray = numeroTeclado.nextInt();
 		
 			 
+			int resultadoBusqueda = Arrays.binarySearch( arregloInt, numeroBuscarArray);
 		   	
+			if ( resultadoBusqueda >= 0 ) {
+				System.out.printf("Se encontro el numero"+ numeroBuscarArray +"en pocicion %d en el arreglo", resultadoBusqueda);
+			}else {
+				System.out.println("No se encontro el numero en el arreglo");
+			}
+			
 			break;
 		}
 		
