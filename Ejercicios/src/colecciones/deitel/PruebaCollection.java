@@ -1,16 +1,15 @@
 package colecciones.deitel;
 
-import java.util.List;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collection;
 import java.util.Iterator;
+import java.util.List;
 
 public class PruebaCollection {
 
 	
-	private static final String[] colores = {"MAGENTA","ROJO","BLANCO","AZUL","CYAN"};
-	private static final String[] eliminarColores = {"ROJO","BLANCO", "AZUL" };
+	private static final String[] colores = {"MAGENTA", "ROJO", "BLANCO", "AZUL", "CYAN"};
+	private static final String[] eliminarColores = {"ROJO", "BLANCO", "AZUL" };
 
 	//crea el obj ArrayList , le agrega los colores y lo manipula
 	public PruebaCollection() {
