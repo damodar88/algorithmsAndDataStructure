@@ -1,13 +1,13 @@
 package colecciones.deitel;
-
+//pag 801 Fig 19.4
 import java.util.List;
 import java.util.LinkedList;
 import java.util.ListIterator;
 
 public class PruebaList {
 	
-	private static final String colores[] = {"negro", "amarillo", "verde", "azul", "violeta", "plateado"};
-	private static final String colores2[] = {"dorado", "blanco", "cafe", "azul", "gris", "plateado"};
+	private static final String colores[] = {"negro ", "amarillo ", "verde ", "azul ", "violeta ", "plateado "};
+	private static final String colores2[] = {"dorado ", "blanco ", "cafe ", "azul ", "gris ", "plateado "};
 	
 	//establece y manipula objetos LinkedList
 	public PruebaList() {
