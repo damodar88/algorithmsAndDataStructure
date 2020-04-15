@@ -17,8 +17,7 @@ public class Ejercicio {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		System.out.println("Ingrese una opcion: ");
-		System.out.println("1) Rellenar un arregloInt ");
+		menu();
 		
 		Scanner capturaTeclado = new Scanner(System.in);
 		int opcionMenu = capturaTeclado.nextInt();
@@ -48,16 +47,20 @@ public class Ejercicio {
 			}else {
 				System.out.println("No se encontro el numero en el arreglo");
 			}
-			
+			menu();
 			break;
 		}
 		
-		
-
-		
-		
+			
 	}
 
-
+    public static void menu() {
+    	System.out.println("Ingrese una opcion: ");
+		System.out.println("1) Rellenar un arregloInt ");
+		System.out.println("2) Copiar un arreglo ");
+		System.out.println("3) Ordenar un arreglo ");
+		System.out.println("4) Comparar un arregloInt ");
+		System.out.println("5) salir ");
+    }
 	
 }
