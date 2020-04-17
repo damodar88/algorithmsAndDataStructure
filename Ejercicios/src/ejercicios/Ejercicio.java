@@ -1,66 +1,76 @@
 package ejercicios;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
 import java.util.Scanner;
 
 public class Ejercicio {
-
-	private int arregloIntGloval[];
-	private int arregloCopy[];
-	private int arregloLleno[];
 	
-	public int buscarArreglo( int valor) {
-		return Arrays.binarySearch(arregloIntGloval, valor);
+	private static final String[]  autos = { "toyota ", "ford " };
+	private static final String[]  eliminarAutos = {"toyota "};
+	
+	public Ejercicio() {
+		List < String > listaAutos = new ArrayList< String >();
+		List < String > eliminarLista = new ArrayList<String>();
+		
+		for( String marcas : autos ) {
+			listaAutos.add(marcas);
+		}
+		
+		for( String eliminarMarca : eliminarAutos ) {
+			eliminarLista.add(eliminarMarca);
+		}
+		
+		System.out.printf("Lista autos: ");
+		for ( String it : listaAutos ) {
+			System.out.printf("%s", it);
+		}
+		
+		System.out.printf("\nA eliminar: ");
+		for ( String itt : eliminarLista ) {
+			System.out.printf( "%s", itt );
+		}	
+		
+		eliminarAutos(listaAutos, eliminarLista );
+		
+		System.out.printf("\nLista despues de eliminar: ");
+	
+		Iterator< String > iterador = listaAutos.iterator();
+		
+		while( iterador.hasNext() ) {
+			System.out.println("--"+ iterador.next() );
+		}
+		
+		System.out.println("--");
+		
+		listaAutos.stream().forEach(  autos -> {  System.out.println(""+autos);   }   );
+		
+		System.out.println("---------");
+		for ( String it : listaAutos ) {
+			System.out.printf("%s",it);
+		}
+		
+		
 	}
+	
+	public void eliminarAutos( Collection< String > collection1, Collection< String > collection2 ) {
+		Iterator< String > iterador = collection1.iterator();
+		
+		while ( iterador.hasNext() ){
+			if( collection2.contains( iterador.next() ) ) {
+				iterador.remove();
+			}
+		}
+		
+	}
+	
 	
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
-		menu();
-		
-		Scanner capturaTeclado = new Scanner(System.in);
-		int opcionMenu = capturaTeclado.nextInt();
-		
-		int opcionCompararMenu= 1;
-		
-		while(opcionCompararMenu == opcionMenu ) {
-			System.out.println("Ingrese numeros para el arreglo: ");
-			Scanner capturaArrglo = new Scanner(System.in);
-			int datosArray  = capturaArrglo.nextInt();
-			
-			int arregloInt[] = {datosArray};
-			System.out.println("ArregloInt");
-			for (int valorInt : arregloInt ) {
-				System.out.printf("%d",valorInt);
-			}
-	
-			System.out.println("Buscar enteros en el array: ");
-			Scanner numeroTeclado = new Scanner(System.in);
-			int numeroBuscarArray = numeroTeclado.nextInt();
-		
-			 
-			int resultadoBusqueda = Arrays.binarySearch( arregloInt, numeroBuscarArray);
-		   	
-			if ( resultadoBusqueda >= 0 ) {
-				System.out.printf("Se encontro el numero"+ numeroBuscarArray +"en pocicion %d en el arreglo", resultadoBusqueda);
-			}else {
-				System.out.println("No se encontro el numero en el arreglo");
-			}
-			menu();
-			break;
-		}
-		
-			
-	}
-
-    public static void menu() {
-    	System.out.println("Ingrese una opcion: ");
-		System.out.println("1) Rellenar un arregloInt ");
-		System.out.println("2) Copiar un arreglo ");
-		System.out.println("3) Ordenar un arreglo ");
-		System.out.println("4) Comparar un arregloInt ");
-		System.out.println("5) salir ");
-    }
-	
+		new Ejercicio();
+	}	
 }

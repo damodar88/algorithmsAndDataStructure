@@ -36,7 +36,7 @@ public class PruebaCollection {
 		eliminarColores( lista, eliminarLista );
 		
 		System.out.println("\n\nArrayList despues de llamar a eliminarColores: ");
-		
+
 		//imprime en pantalla el contenido de la lista
 		for ( String color : lista ) {
 			System.out.printf("%s", color);
