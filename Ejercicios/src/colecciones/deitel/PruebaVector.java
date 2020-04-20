@@ -8,7 +8,7 @@ import java.util.NoSuchElementException;
 
 public class PruebaVector {
 	
-	private static final String colores[] = { "rojo ", "blanco ", "azul " };
+	private static final String colores[] = { "rojo", "blanco ", "azul " };
 
 	public PruebaVector() {
 		Vector< String > vector = new Vector< String >();
@@ -31,7 +31,7 @@ public class PruebaVector {
 		
 		//¿el vector contiene "rojo"?
 		if( vector.contains("rojo") ) {
-			System.out.printf("se encontro \"rojo\" en el indice %d\n\n", vector.indexOf( "rojo" ) );
+			System.out.printf("\nse encontro \"rojo\" en el indice %d\n\n", vector.indexOf( "rojo" ) );
 		}else {
 			System.out.println("\n no se encontro \"rojo\" \n");
 		}
