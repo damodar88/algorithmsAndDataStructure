@@ -8,7 +8,8 @@ import java.util.NoSuchElementException;
 
 public class PruebaVector {
 	
-	private static final String colores[] = { "rojo", "blanco ", "azul " };
+	private static final String colores[] = { "rojo"
+			+ "", "blanco ", "azul " };
 
 	public PruebaVector() {
 		Vector< String > vector = new Vector< String >();
