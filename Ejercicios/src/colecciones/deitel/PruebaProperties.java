@@ -1,3 +1,5 @@
+// Fig. 19.21: PruebaPropiedades.java
+// Demuestra la clave del paquete java.util
 package colecciones.deitel;
 
 import java.io.FileInputStream;
