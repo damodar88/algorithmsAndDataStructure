@@ -6,28 +6,28 @@ import java.util.List;
 
 public class MetodosCollections {
 
-	private Character[] letras = { 'A', 'B', 'c', 'D', 'E' };
-	private Character[] copiaLetras;
+	private Character[] letras = { 'A', 'B', 'C', 'D', 'E' };
+	private Character[] letrasMinusculas = { 'a', 'b', 'c', 'd', 'e'};
 	private List< Character > lista;
 	private List< Character > copiaLista;
 	
 	public MetodosCollections() {
 		lista = Arrays.asList( letras );
 		imprimir( lista );
+		System.out.println("");
 		
 		System.out.println("\nLista inversa: ");
 		Collections.reverse(lista);
 		imprimir( lista );
 		
-		copiaLetras = new Character[3];
-		copiaLetras = { 'Z', 'W', 'V' };
 		
-		copiaLista = Arrays.asList( copiaLetras );
+		copiaLista = Arrays.asList( letrasMinusculas );
+		System.out.println("");
 		
 		
 		System.out.println("\nCopia Lista: ");
-		Collections.copy( copiaLista , lista );
-		//imprimir( copiaLista );
+		Collections.copy( lista, copiaLista );
+		imprimir( copiaLista );
 		
 		
 	}
