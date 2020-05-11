@@ -29,7 +29,17 @@ public class MetodosCollections {
 		Collections.copy( lista, copiaLista );
 		imprimir( copiaLista );
 		
+		System.out.println( "\n" );
+		System.out.println( "Relleno con R con el metodo fill: " );
+		Collections.fill( lista, 'R');
+		imprimir( lista );
 		
+		System.out.println( "\n" );
+		System.out.println( "Imprimo la lista ordenada metodo sort: " );
+		Collections.sort( copiaLista );
+		imprimir( copiaLista );
+		
+
 	}
 	
 	private void imprimir( List< Character > refLista ) {
@@ -42,6 +52,7 @@ public class MetodosCollections {
 		System.out.printf( "\nMax: %s", Collections.max( refLista ) );
 		System.out.printf( "\nMin: %s", Collections.min( refLista ) );
 	}
+	
 	
 	public static void main(String[] args) {
 		new MetodosCollections();
