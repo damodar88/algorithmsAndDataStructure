@@ -58,7 +58,11 @@ public class MetodosCollectionss {
 		
 		System.out.println("\n\nOrdenada: ");
 		Collections.sort( lista );
+		imprimir(lista);
 		
+		System.out.println("\n\nAgregamos arreglo a lista: ");
+		Collections.addAll( lista, colores );
+		imprimir(lista);
 		
 	}
 
