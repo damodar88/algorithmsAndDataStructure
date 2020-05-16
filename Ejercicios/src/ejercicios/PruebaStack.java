@@ -21,20 +21,34 @@ public class PruebaStack {
 		
 		imprimirPila( pila );
 		
+		System.out.println( "\n\nMetodos pila:" );
+		metodosPila( pila );
+		
 	}
 	
-	public void imprimirPila( Stack < Number > pila ) {
+	private void metodosPila( Stack< Number > pila1 ) {
+		
+		for (Number n : pila1) 
+		{
+			System.out.printf( "%s", n );
+		}
+		System.out.println( "\nSima: " );
+		pila1.peek();
+	}
+	
+	private void imprimirPila( Stack < Number > pila ) {
 		
 		Iterator < Number > iterador = pila.listIterator();
 		
 		while ( iterador.hasNext() ) {
 			Number numero = iterador.next();
-			System.out.printf("%s", numero);
-		}
-		
+			System.out.printf("\n\n%s", numero);
+		}	
 	}
 
-	
+	public static void main(String[] args) {
+		new PruebaStack();
+	}
 	
 	
 }

@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
+import java.util.ListIterator;
 import java.util.Vector;
 
 public class MetodosCollectionss {
@@ -52,6 +54,9 @@ public class MetodosCollectionss {
 		Collections.reverse( lista );
 		imprimir(lista);
 		
+		System.out.println("\n\nLista min y max: ");
+		imprimirMaxYMin( lista );
+		
 		System.out.println("\n\nRellena de vere: ");
 		Collections.fill( lista , "verde");
 		imprimir(lista);
@@ -63,7 +68,21 @@ public class MetodosCollectionss {
 		System.out.println("\n\nAgregamos arreglo a lista: ");
 		Collections.addAll( lista, colores );
 		imprimir(lista);
+		                                        
+	}
+	
+	private void imprimirMaxYMin( List < String > listaIerar ) {
+		Iterator<String> iterator = listaIerar.listIterator();
 		
+		Collections.sort( listaIerar );
+		
+		while( iterator.hasNext() ) {
+			String listt =  iterator.next();
+			System.out.printf( "%s", listt );
+		}
+		System.out.println("\n");
+		System.out.printf( "Max: %s\n", Collections.max( listaIerar ) );
+		System.out.printf( "Min: %s", Collections.min( listaIerar ) );
 	}
 
 	private void imprimir( Collection< String > list ) {
