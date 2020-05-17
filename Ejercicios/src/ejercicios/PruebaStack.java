@@ -1,5 +1,6 @@
 package ejercicios;
 
+import java.util.EmptyStackException;
 import java.util.Iterator;
 import java.util.Stack;
 
@@ -21,19 +22,22 @@ public class PruebaStack {
 		
 		imprimirPila( pila );
 		
-		System.out.println( "\n\nMetodos pila:" );
+		System.out.println( "\nSima: " );
 		metodosPila( pila );
+		
+		System.out.println( "\nElimina elementos de la pila: " );
+		eliminarElementoPila( pila );
+		
 		
 	}
 	
+	
 	private void metodosPila( Stack< Number > pila1 ) {
 		
-		for (Number n : pila1) 
-		{
-			System.out.printf( "%s", n );
-		}
-		System.out.println( "\nSima: " );
-		pila1.peek();
+		Number objPila = null;
+
+		objPila = pila1.peek();
+		System.out.printf( "%s", objPila );
 	}
 	
 	private void imprimirPila( Stack < Number > pila ) {
@@ -45,6 +49,23 @@ public class PruebaStack {
 			System.out.printf("\n\n%s", numero);
 		}	
 	}
+	
+	private void eliminarElementoPila( Stack< Number > pilaEliminar ) {
+		try
+		{
+			Number objEliminado = null;
+			while( true )
+			{
+				objEliminado = pilaEliminar.pop();
+				System.out.printf( "%s se saco\n", objEliminado );
+				imprimirPila( pilaEliminar );
+			}
+		}catch( EmptyStackException emptyStackException ) 
+		{
+			emptyStackException.printStackTrace();
+		}
+	}
+	
 
 	public static void main(String[] args) {
 		new PruebaStack();
