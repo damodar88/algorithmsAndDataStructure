@@ -28,7 +28,6 @@ public class PruebaStack {
 		System.out.println( "\nElimina elementos de la pila: " );
 		eliminarElementoPila( pila );
 		
-		
 	}
 	
 	
@@ -42,13 +41,20 @@ public class PruebaStack {
 	
 	private void imprimirPila( Stack < Number > pila ) {
 		
-		Iterator < Number > iterador = pila.listIterator();
-		
-		while ( iterador.hasNext() ) {
-			Number numero = iterador.next();
-			System.out.printf("\n\n%s", numero);
-		}	
-	}
+		if ( pila.isEmpty() )
+		{
+			System.out.println( "\nLa pila esta vacia" );
+		}else
+		{
+			System.out.println( "\nLa pila contiene: " );
+			Iterator < Number > iterador = pila.listIterator();
+			
+			while ( iterador.hasNext() ) {
+				Number numero = iterador.next();
+				System.out.printf("\n\n%s", numero);
+			}//fin while
+		}//fin else	
+	}//fin metodo imprimirPila
 	
 	private void eliminarElementoPila( Stack< Number > pilaEliminar ) {
 		try
