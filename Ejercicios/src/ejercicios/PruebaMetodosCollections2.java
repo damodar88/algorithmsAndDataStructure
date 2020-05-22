@@ -15,6 +15,7 @@ public class PruebaMetodosCollections2 {
 	public PruebaMetodosCollections2() {
 		List< String > lista = new ArrayList< String >( Arrays.asList( paises ) );
 		List< String > lista2 = new ArrayList< String >();
+		List< String > copia2 = new ArrayList<>();
 		imprimirArray( lista );
 		
 		lista2.add( "Mexico" );
@@ -27,6 +28,15 @@ public class PruebaMetodosCollections2 {
 				
 		System.out.println( "\nLista concatenada: " );
 		imprimirArray( lista );
+		
+		
+		for ( String s : lista ) {
+			copia2.add( s );
+		}
+		
+		System.out.printf( "\nLista copia2 contiene: " );
+		imprimirArray(copia2);
+		
 	} 
 
 	private void imprimirArray( Collection< String > list ) {
