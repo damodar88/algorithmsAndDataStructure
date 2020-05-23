@@ -20,7 +20,7 @@ public class PruebaMapa1 {
 			map.put( s , contador + 1 );
 		}
 		
-		for ( ) {
+		for ( String n : map ) {
 			
 		}
 		

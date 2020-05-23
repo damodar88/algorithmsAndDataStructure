@@ -51,7 +51,7 @@ public class PruebaMapa {
 		System.out.printf( "\nsize:%d\nisEmpty:%b\n", mapa.size(), mapa.isEmpty() );
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		new PruebaMapa();
 	}
 
