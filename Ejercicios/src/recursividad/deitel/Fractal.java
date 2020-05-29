@@ -56,7 +56,7 @@ public class Fractal extends JFrame {
 		reducirNivelJButton.addActionListener( 
 				new  ActionListener() {
 					public void actionPerformed( ActionEvent evento ) {
-						int nivel = espacioDibujo.obtener();
+						int nivel = espacioDibujo.obtenerNivel();
 						nivel--; // reduce el nivel de uno
 						
 						// modifica el nivel si es posible
@@ -92,9 +92,9 @@ public class Fractal extends JFrame {
 		
 		// establece nivelJLabel para agragarlo a controlJPanel
 		nivelJLabel = new JLabel( "Nivel: 0" );
-		controlJPanle.add( nivelJLabel );
+		controlJPanel.add( nivelJLabel );
 		
-		espacioDibijo = new FractalJPanel( 0 );
+		espacioDibujo = new FractalJPanel( 0 );
 		
 		// crea principalJPanel para que contenga a controlJPanel y espacioDibujo
 		principalJPanel = new JPanel();
