@@ -1,0 +1,954 @@
+    1  ls
+    2  bash
+    3  ls -a
+    4  nano .zshrc
+    5  ls -a
+    6  cd .oh-my-zsh
+    7  ls
+    8  cd themes
+    9  ls
+   10  ls -a
+   11  nano .zsh
+   12  nano .zshrc
+   13  ls -a
+   14  cd .oh-my-zsh
+   15  ls
+   16  cd themes
+   17  ls
+   18  cat .zshrc
+   19  ls
+   20  ls -l
+   21  nano .zshrc
+   22  exit
+   23  ls
+   24  ls -l -a
+   25  ls
+   26  cd Descargas
+   27  ls
+   28  cd
+   29  ls
+   30  cd Programacion
+   31  ls
+   32  cd wks
+   33  ls
+   34  cd JavaDeitel
+   35  ls
+   36  git status
+   37  ls
+   38  cd
+   39  ls
+   40  ls -l
+   41  htop
+   42  hhtop
+   43  top
+   44  ls
+   45  cd
+   46  sudo apt-get install htop
+   47  htop
+   48  sudo apt-get install ranger
+   49  ls -l
+   50  ls -a
+   51  ls
+   52  ls -a
+   53  cd .local
+   54  ls
+   55  cd share
+   56  ls
+   57  cd
+   58  cd ~/.local/share/themes
+   59  ls cd /usr/share
+   60  cd themes
+   61  cd theme
+   62  ls
+   63  cd /usr
+   64  ls
+   65  cd share
+   66  ls
+   67  cd themes
+   68  ls
+   69  cd Descargas
+   70  ls
+   71  sudo mv McOS-MJV-XFCE-Edition-2.3 /usr/share/themes
+   72  ls
+   73  sudo mv McOS-CTLina-XFCE /usr/share/themes
+   74  ls
+   75  cd ..
+   76  ls
+   77  cd icons
+   78  ls
+   79  sudo mv Light-Mode-circle  /usr/share/icons
+   80  ls
+   81  sudo mv Materia-Manjaro-Breeze  /usr/share/icons
+   82  sudo mv Materia-Manjaro-Breeze-Dark  /usr/share/icons
+   83  ls
+   84  sudo mv CompaKt-Xfwm /usr/share/themes
+   85  sudo mv dark_com  /usr/share/themes
+   86  sudo mv Futurist-hackerist   /usr/share/themes
+   87  sudo mv greeny-dark   /usr/share/themes
+   88  sudo mv Sunny-NoButton  /usr/share/themes
+   89  sudo mv tetris-ambient  /usr/share/themes
+   90  ls
+   91  tar xvzf time-machine.tar.bz2
+   92  tar bz time-machine.tar.bz2
+   93  bzip2 -d time-machine.tar.bz2
+   94  exit
+   95  cd Descargas
+   96  ls
+   97  cd /usr
+   98  ls
+   99  cd share
+  100  ls
+  101  cd themes
+  102  ls
+  103  mv fantome /usr/share/themes
+  104  sudo mv fantome /usr/share/themes
+  105  ls
+  106  sudo mv K-Story   /usr/share/icons
+  107  sudo mv Laferte-Matrix   /usr/share/icons
+  108  sudo mv ZorinGreen-Dark   /usr/share/icons
+  109  ls
+  110  sudo mv Yosemyte /usr/share/themes
+  111  sudo mv Numix-dark /usr/share/themes
+  112  ls
+  113  pwd
+  114  ls
+  115  sudo mv flat-two-color-master /usr/share/themes
+  116  ls
+  117  sudo mv Dashes-Right /usr/share/themes
+  118  ls
+  119  sudo mv *  /usr/share/themes
+  120  ls
+  121  hto
+  122  htop
+  123  ls
+  124  cd Programacion
+  125  ls
+  126  cd wks
+  127  ls
+  128  cd JavaDeitel
+  129  ls
+  130  git status
+  131  git add -A
+  132  git commit -m "se agrega ejercicios ordenamiento"
+  133  git push
+  134  ls
+  135  cd Programacion
+  136  ls
+  137  cd wks
+  138  ls
+  139  cd JavaDeitel
+  140  ls
+  141  git status
+  142  ls
+  143  ll
+  144  ranger
+  145  ls
+  146  cd Programacion
+  147  ls
+  148  cd wks
+  149  ls
+  150  cd JavaDeitel/
+  151  ls
+  152  git status
+  153  ls
+  154  git status
+  155  git add -A
+  156  git status
+  157  git commit -m "se agregan ejercicos de collections"
+  158  git status
+  159  git logs
+  160  git log
+  161  git push
+  162  ls
+  163  cd Programacion
+  164  ls
+  165  cd wks
+  166  ls
+  167  cd JavaDeitel
+  168  ls
+  169  git status
+  170  git logs
+  171  git log
+  172  git fetch
+  173  git pull
+  174  cd Programacion
+  175  ls
+  176  cd wks/JavaDeitel
+  177  git status
+  178  git add -A
+  179  git status
+  180  git rm Ejercicios/src/ejercicios/MetodosCollectionss.java
+  181  git status
+  182  git rm -f Ejercicios/src/ejercicios/MetodosCollectionss.java
+  183  git status
+  184  git add -A
+  185  git status
+  186  git commit -m "se corrige ejercicio"
+  187  git push
+  188  git logs
+  189  git log
+  190  git checkout b67cc594ed0e9944986ba65d0bb512b3b65073e7
+  191  git status
+  192  git add -A
+  193  git status
+  194  git commit -m "se corrige un error collectionss"
+  195  git push
+  196  git push origin HEAD:master
+  197  git fetch
+  198  git pull
+  199  git pull master
+  200  git push
+  201  git push HEAD: master
+  202  git push HEAD:master
+  203  git granch -a
+  204  git branch -a
+  205  git branch 
+  206  git branch develope
+  207  git brans -a
+  208  git branch -a
+  209  git remote -v
+  210  git branch -d develope
+  211  git branch develop
+  212  ls
+  213  git logs
+  214  git log
+  215  git log less
+  216  git log 
+  217  git status
+  218  git checkout master
+  219  git log
+  220  git checkout  b67cc594ed0e9944986ba65d0bb512b3b65073e7
+  221  git status
+  222  git add -A
+  223  git status
+  224  git push
+  225  git push origin HEAD:develop
+  226  git push origin HEAD: master
+  227  git push origin HEAD: develop
+  228  git push origin HEAD:develop
+  229  git push origin HEAD:master
+  230  git reset --soft HEAD~
+  231  git status
+  232  git checkout master
+  233  git status
+  234  git add -A
+  235  git commit -m "se arregla null collectionss"
+  236  git push
+  237  ls
+  238  mkdir Drive
+  239  mkdir bin
+  240  ls
+  241  sudo apt install grive
+  242  sudo apt install insync
+  243  cd Descargas
+  244  ls
+  245  wget https://github.com/liberodark/ODrive/releases/download/0.2.1/odrive_0.2.1_amd64.deb
+  246  ll
+  247  sudo dpkg -i install odrive_0.2.1_amd64.deb
+  248  ls
+  249  sudo dpkg -i  odrive_0.2.1_amd64.deb
+  250  sudo apt install gconf2
+  251  sudo apt --fix-broken install
+  252  sudo apt -f install
+  253  sudo apt install gconf2
+  254  sudo apt install 
+  255  sudo apt install libappindicator1
+  256  sudo dpkg -i  odrive_0.2.1_amd64.deb
+  257  ls
+  258  rm -r odrive_0.2.1_amd64.deb
+  259  ls
+  260  cd /etc/apt/sources.list.d/
+  261  ls
+  262  sudo apt-get update
+  263  ls
+  264  cat nilarimogard-ubuntu-webupd8-focal.list
+  265  sudo rm -r ilarimogard-ubuntu-webupd8-focal.list
+  266  sudo rm -r nilarimogard-ubuntu-webupd8-focal.list
+  267  sudo rm -r nilarimogard-ubuntu-webupd8-focal.list.save
+  268  ls
+  269  sudo apt-get update
+  270  ls
+  271  sudo  dpkg --remove-architecture i386
+  272  sudo apt-get update
+  273  cd
+  274  ls
+  275  cd Google\ Drive
+  276  ls
+  277  cd Keeypass2
+  278  ls
+  279  ll
+  280  cd /usr/share
+  281  ls
+  282  cd applications
+  283  ls
+  284  cd ..
+  285  cd themes
+  286  ls
+  287  sudo mv * /usr/share/themes
+  288  ls
+  289  cd /usr
+  290  ls
+  291  cd share
+  292  ls
+  293  cd themes
+  294  ls
+  295  cd ..
+  296  ls
+  297  cd icons
+  298  ls
+  299  cd /usr/share/
+  300  ls
+  301  cd themes
+  302  ls
+  303  cd Descargas
+  304  ls
+  305  tar zxvf * .tar.xz
+  306  tar xvfz * .tar.xz
+  307  tar xvfz * .tar.gz
+  308  ls
+  309  sudo mv * /usr/share/icons
+  310  ls
+  311  sudo su
+  312  exit
+  313  ls
+  314  htop
+  315  ll
+  316  ls
+  317  du Descargas
+  318  du /home
+  319  du -sh /home/damodar
+  320  du -sh * /home/damodar
+  321  sh
+  322  du /home/damodar
+  323  du sh /home/damodar
+  324  du -sh /home/damodar
+  325  du -sh * /home/damodar
+  326  du  * /home/damodar
+  327  du -sh * /home/damodar
+  328  vim
+  329  ls
+  330  ll
+  331  ls
+  332  ranger
+  333  ls
+  334  tree
+  335  tre
+  336  sudo apt install tree
+  337  tree
+  338  tree /home/damodar
+  339  tree /home/damodar/Programacion
+  340  tree /home/damodar/Programacion | less
+  341  ls
+  342  exit
+  343  du --help
+  344  ls
+  345  ll
+  346  ls
+  347  cd Programacion
+  348  Lls
+  349  ls
+  350  cd wks
+  351  cd JavaDeitel
+  352  ls
+  353  ll
+  354  git status
+  355  git add -A
+  356  git status
+  357  git commit -m 'se agregan ejercicos de collections'
+  358  git push
+  359  cd /usr/share
+  360  ls
+  361  cd applications
+  362  ls
+  363  cd ..
+  364  cd themes
+  365  ls
+  366  sudo su
+  367  ls
+  368  cd ..
+  369  ls
+  370  cd icons
+  371  ls
+  372  cd 05-Tela-circle-green
+  373  ls
+  374  sudo mv * /usr/share/icons/
+  375  ls
+  376  cd ..
+  377  ls
+  378  sudo rm -r 05-Tela-circle-green
+  379  ls
+  380  cd papirus-icon-theme-master
+  381  ls
+  382  sudo ./install.sh
+  383  ls
+  384  cd ..
+  385  ls
+  386  sudo rm -r  papirus-icon-theme-master
+  387  ls
+  388  cd Programa
+  389  cd Programacion
+  390  cd wks
+  391  cd JavaDeitel
+  392  ls
+  393  git status
+  394  git remote -v
+  395  git 
+  396  ls
+  397  cd
+  398  du -sh /
+  399  sudo du -sh /
+  400  du -sh
+  401  du -sh /home/damodar
+  402  du -sh  * /home/damodar
+  403  du -sh  * /
+  404  ls
+  405  cd Programa
+  406  cd Programacion
+  407  cdwk
+  408  ls
+  409  cd wks
+  410  cd JavaDeitel
+  411  git status
+  412  git fetch
+  413  git pull
+  414  git status
+  415  git add -A
+  416  git commit -m "se agrega ejercico de stack"
+  417  git push
+  418  ls
+  419  cd         
+  420  ls
+  421  cd Programacion
+  422  cd wks
+  423  cd JavaDeitel
+  424  git status
+  425  show
+  426  git show
+  427  git status
+  428  git show
+  429  git status
+  430  git add -A
+  431  git commit -m "se agrega ejercicos de pila"
+  432  git push
+  433  ls
+  434  cd Programacion/wks
+  435  cd JavaDeitel
+  436  dgit status
+  437  git fetch
+  438  git status
+  439  cd Programacion/wks/JavaDeitel
+  440  L
+  441  ls
+  442  git status
+  443  git show
+  444  git add -A
+  445  git status
+  446  git commit -m "se agraga prueba de stack"
+  447  git status
+  448  git show
+  449  git push
+  450  git status
+  451  git show
+  452  git add -A
+  453  git commit -m "Se agrga ejercicio de priorityQueue"
+  454  git push
+  455  git status
+  456  git add -A
+  457  git commit -m "se agraga ejercicio de set"
+  458  git push
+  459  cd Programacion/wks/JavaDeitel
+  460  git status
+  461  git add -A
+  462  git commit -m "se agrega ejemplo de Set HashSet"
+  463  git push
+  464  cd Programacion/wks/JavaDeitel
+  465  git status
+  466  git fetch
+  467  git status
+  468  git add -A
+  469  git commit -m "se agrega prueba de SortedSet"
+  470  git push
+  471  git status
+  472  cd Programacion/wks/JavaDeitel
+  473  git status
+  474  git show
+  475  git add -A
+  476  git commit -m "se agrega ejercicos de list"
+  477  git push
+  478  cd Programacion/wks/JavaDeitel
+  479  ls
+  480  git status
+  481  ls
+  482  git stat8us
+  483  git stattus
+  484  git status
+  485  git show
+  486  dir logs
+  487  dir log
+  488  gir log
+  489  gir logs
+  490  git logs
+  491  git log
+  492  git log less
+  493  git log | less
+  494  git logs
+  495  git log
+  496  git diff c6d34441c9194d94a8a4ba46a3689907850b53d6 eb2fd973a8ced70bafb27fd414d5e985aa0af2e3
+  497  git dif c6d34441c9194d94a8a4ba46a3689907850b53d6 eb2fd973a8ced70bafb27fd414d5e985aa0af2e3
+  498  git diff c6d34441c9194d94a8a4ba46a3689907850b53d6 eb2fd973a8ced70bafb27fd414d5e985aa0af2e3
+  499  git log
+  500  git logs
+  501  git 
+  502  git logs
+  503  git log
+  504  cd Programacion/wks/JavaDeitel
+  505  git logs
+  506  git log
+  507  git diff c6d34441c9194d94a8a4ba46a3689907850b53d6 eb2fd973a8ced70bafb27fd414d5e985aa0af2e3
+  508  git diff eb2fd973a8ced70bafb27fd414d5e985aa0af2e3 c6d34441c9194d94a8a4ba46a3689907850b53d6
+  509  \t\t\t\t\t\t\t\t\t\t\t\t\t\t\tcd Programacion/wks/JavaDeitel
+  510  ls
+  511  ll
+  512  ls 
+  513  git status
+  514  git logs
+  515  git log
+  516  git add -A
+  517  git commit -m "ejercicios de mapas"
+  518  git push
+  519  ls
+  520  ls -a
+  521  nano .zshrc
+  522  ls
+  523  cd Descargas
+  524  ls
+  525  ls /usr/share
+  526  ls /usr/share/theme
+  527  ls /usr/share/themes
+  528  ls 
+  529  sudo mv Dr0ne2 /usr/share/themes
+  530  ls
+  531  sudo mv diamondo-ambient /usr/share/themes
+  532  ls
+  533  sudo mv TillSummer /usr/share/themes
+  534  sudo mv Dashes-Right /usr/share/themes
+  535  cd /usr/share/themes
+  536  ls
+  537  sudo rm Dashes-Right
+  538  sudo rm -f Dashes-Right
+  539  sudo rm -rf Dashes-Right
+  540  ls
+  541  sudo rm -rf fantome
+  542  sudo rm -rf Sunny-NoButton
+  543  ls
+  544  sudo rm -rf Raleigh
+  545  ranger 
+  546  httop
+  547  htop
+  548  exit
+  549  ranger
+  550  exit
+  551  ls
+  552  cd Programacion
+  553  ls
+  554  git clone https://github.com/torvalds/linux.git
+  555  ls
+  556  cd linux
+  557  git show
+  558  git logs
+  559  git log
+  560  cd Programacion
+  561  ls
+  562  cd linux
+  563  git status
+  564  git log
+  565  ls
+  566  ll
+  567  cd Programacion
+  568  cd linux
+  569  ls
+  570  git fetch
+  571  git show
+  572  git log
+  573  git log -p -1
+  574  git log -p -2
+  575  git log
+  576  cd ..
+  577  ls
+  578  cd wks
+  579  ls
+  580  cd JavaDeitel
+  581  git status
+  582  git add -A
+  583  git commit -m "se agrega ejercicios de map"
+  584  git push
+  585  git log
+  586  git log -p -2
+  587  cd ..
+  588  ls
+  589  cd ../
+  590  ls
+  591  cd linux
+  592  ls
+  593  git log
+  594  git log -p -2
+  595  git show
+  596  git log
+  597  git diff a24deb9d68b423f3e5e190b9836d192ee3e0ff9d e644645abf4788e919beeb97925fb6bf43e890a2
+  598  cd Programacion
+  599  ls
+  600  cd linux
+  601  ranger
+  602  git log --start
+  603  git log -start
+  604  git log --stat
+  605  cd /lib
+  606  ls
+  607  cd modules
+  608  ls
+  609  cd 5.4.0-kali2-amd64
+  610  ls
+  611  ll
+  612  ls
+  613  cdt modules.alias
+  614  cat modules.alias
+  615  ls
+  616  cd ..
+  617  ls
+  618  cd 5.4.0-kali4-amd64
+  619  ls
+  620  cat build
+  621  cat kernel
+  622  cd kernel
+  623  ls
+  624  cd net
+  625  ls
+  626  cd
+  627  ls
+  628  vim copia.txt
+  629  cat copia.txt
+  630  vim copia.txt
+  631  ls
+  632  vim copia.txt
+  633  ls
+  634  touch /v
+  635  touch --help
+  636  touch -d copia.txt
+  637  touch vim_comand.txt
+  638  ls
+  639  vim vim_comand.txt
+  640  ls
+  641  vim copia.txt
+  642  sudo apt-get update
+  643  sudo apt-get upgrade
+  644  cd Programacion/wks/JavaDeitel
+  645  gst
+  646  sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \\n       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+  647  ls -a
+  648  curl -fLo ~/.vim/autoload/plug.vim --create-dirs \\n    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  649  ls -a
+  650  cd .vim
+  651  ls
+  652  cd autoload
+  653  ls
+  654  ls /Descargas
+  655  cd
+  656  ls Descargas
+  657  curl -fLo ~/.vim/autoload/plug.vim --create-dirs \\n    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  658  ls -a
+  659  cd .vim
+  660  ls
+  661  cd autoload
+  662  ls
+  663  cat plug.vim
+  664  ls -a
+  665  cd ..
+  666  ls
+  667  ls -a
+  668  cd ..
+  669  ls -a
+  670  curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  671  ls .
+  672  ls -a
+  673  touch .vimrc
+  674  nano .vimrc
+  675  vim vim_comand.txt
+  676  ll
+  677  nano .vimrc
+  678  vim vim_comand.txt
+  679  vim .vimrc
+  680  ls -a
+  681  cd .vim
+  682  ls
+  683  mkdir plugins
+  684  ls
+  685  cd plugins
+  686  ls
+  687  vim .vimrc
+  688  ls
+  689  cd
+  690  vim .vimrc
+  691  ls
+  692  cd
+  693  ls
+  694  ll
+  695  ls
+  696  ls -a
+  697  vim .vimrc
+  698  ls
+  699  ls -a
+  700  vi .zshec
+  701  vi .zshrc
+  702  ls
+  703  ls -a
+  704  cd .oh-my-zsh
+  705  ls
+  706  cd themes
+  707  ls
+  708  cd Programacion
+  709  ls
+  710  cd linux
+  711  gst
+  712  git status
+  713  gs
+  714  git status
+  715  git fetch
+  716  git pull
+  717  cd Programacion
+  718  ls
+  719  cd linux
+  720  git log
+  721  cd Programacion
+  722  ls
+  723  cd linux
+  724  git diff 667b6249b71c30c20fcd2f312f1665d90348635a 98790bbac4db1697212ce9462ec35ca09c4a2810
+  725  cd Programacio/linux
+  726  cd Programacion/linux
+  727  ranger
+  728  ls
+  729  vim vim_comand.txt
+  730  git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+  731  ls /.oh-my-zsh/custom/themes/powerlevel9k
+  732  ls /.oh-my-zsh/custom/themes
+  733  ls .oh-my-zsh/custom/themes
+  734  ls -a
+  735  vim .zshrc
+  736  cd Programacion/linux
+  737  ls
+  738  git status
+  739  ll
+  740  ls
+  741  cd
+  742  vim .zshrc
+  743  cat .zshrc
+  744  cd Descargas
+  745  git clone https://github.com/ryanoasis/nerd-fonts.git
+  746  ls
+  747  cd nerd-fonts
+  748  ls
+  749  sudo ./install.sh
+  750  ls
+  751  ll
+  752  cd Programacion
+  753  cd linux
+  754  ls
+  755  sudo apt-get install terminator
+  756  sudo apt autoremove
+  757  ls a
+  758  ls -a
+  759  nano .zshrc
+  760  ls
+  761  ll
+  762  cd Programa
+  763  cd Programacion
+  764  cd linux
+  765  cd ../ && cd JavaDeitel
+  766  ls
+  767  cd wks
+  768  cd JavaDeitel
+  769  ls
+  770  g
+  771  gs
+  772  gst
+  773  gf
+  774  gp
+  775  ls
+  776  cat JavaDeitel.iml
+  777  sudo apt-get install screenfetch
+  778  screenfetch
+  779  gst
+  780  gad
+  781  g
+  782  git add -A
+  783  git status
+  784  git commit -m "se agrega ejercicio de recorer mapa"
+  785  git push
+  786  cd Programacion
+  787  ls
+  788  cd wks
+  789  ls
+  790  cd JavaDeitel
+  791  gst
+  792  git add -A
+  793  git commit -m "se agrega ejercicio de recurcividad"
+  794  git push
+  795  cd Programacion
+  796  cd wks
+  797  ls
+  798  cd JavaDeitel
+  799  L 
+  800  ls
+  801  ls -lha
+  802  ls -lht
+  803  gst
+  804  git fetch
+  805  git pull
+  806  git branch -a
+  807  git branch 
+  808  gst
+  809  git add -A
+  810  gst
+  811  git commit -m "se agrega ejercicio de fibonacci"
+  812  git push
+  813  git fetch
+  814  git pull
+  815  git bransh -a
+  816  git branch -a
+  817  git log
+  818  git status
+  819  cd Programacion/wks/JavaDeitel
+  820  gst
+  821  git add -A
+  822  git commit -m "se agrega ejercicios de recurcibidad"
+  823  git push
+  824  ls
+  825  mkdir e
+  826  ls
+  827  rm -rf e
+  828  ls
+  829  mkdir AlgoritmosC
+  830  Lls
+  831  ls
+  832  cd AlgoritmosC
+  833  touch recurcividad.c
+  834  ls
+  835  vi recurcividad.c
+  836  ls
+  837  cat recurcividad.c
+  838  vi recurcividad.c
+  839  gcc recurcividad.c -o recurcividad
+  840  vi recurcividad.c
+  841  gcc recurcividad.c -o recurcividad
+  842  vi recurcividad.c
+  843  gcc recurcividad.c -o recurcividad
+  844  vi recurcividad.c
+  845  gcc recurcividad.c -o recurcividad
+  846  vi recurcividad.c
+  847  gcc recurcividad.c -o recurcividad
+  848  vi recurcividad.c
+  849  gcc recurcividad.c -o recurcividad
+  850  vi recurcividad.c
+  851  gcc recurcividad.c -o recurcividad
+  852  vi recurcividad.c
+  853  gcc recurcividad.c -o recurcividad
+  854  vi recurcividad.c
+  855  gcc recurcividad.c -o recurcividad
+  856  vi recurcividad.c
+  857  gcc recurcividad.c -o recurcividad
+  858  vi recurcividad.c
+  859  gcc recurcividad.c -o recurcividad
+  860  vi recurcividad.c
+  861  gcc recurcividad.c -o recurcividad
+  862  ./recurcividad
+  863  gst
+  864  cd ../
+  865  gst
+  866  ls
+  867  cd AlgoritmosC
+  868  ls
+  869  gdb ./recurcividad
+  870  sudo apt-get install gdb
+  871  gdb ./recurcividad
+  872  gdb recurcividad
+  873  ls
+  874  cd ..
+  875  ls
+  876  gst
+  877  cd ../
+  878  ls
+  879  cd JavaDeitel
+  880  git add -A
+  881  git commit -m "se agrega un ejercico en c de recurcividad"
+  882  git push
+  883  gst
+  884  cd Programacion/wks/JavaDeitel
+  885  git add -A
+  886  git commit -m "se agrega ejercicio de metodo de burbuja"
+  887  git push
+  888  cd Programacion/wks/JavaDeitel
+  889  gst
+  890  cd ../
+  891  Lls
+  892  ls
+  893  cd ../
+  894  Lls
+  895  ls
+  896  cd linux
+  897  ls
+  898  gst
+  899  git fetch
+  900  git pull
+  901  git show
+  902  git log -5 --pretty=oneline
+  903  git show
+  904  git log -p -2
+  905  git log --pretty=format:"%h %s" --graph
+  906  git diff --staged
+  907  git --follow
+  908  gitk
+  909  cd Programa
+  910  cd Programacion/wks/JavaDeitel
+  911  git add -A
+  912  git commit -m "se agrega ejercicio de recurcividad fractales"
+  913  git push
+  914  cd Programacion/wks/JavaDeitel
+  915  gst
+  916  git show
+  917  cd Programacion/wks/JavaDeitel
+  918  git add -A
+  919  git commit -m "se agrega ejercicio de recurcividad"
+  920  git push
+  921  gst
+  922  cd Programacion/wks/JavaDeitel
+  923  gst
+  924  ls
+  925  cd Programacion/wks/JavaDeitel
+  926  gst
+  927  st
+  928  gst
+  929  ls
+  930  kls -a
+  931  ls -la
+  932  ll
+  933  lla
+  934  htop
+  935  ls
+  936  history
+  937  docker
+  938  ps
+  939  du sh
+  940  du -sh /home/damodar
+  941  du   /home/damodar
+  942  du  sh /home/damodar
+  943  du  -sh r /home/damodar
+  944  du  -help
+  945  du  --help
+  946  du -sh -a /home/damodar
+  947  du -sha /home/damodar
+  948  du -a -sh /home/damodar
+  949  du -a  /home/damodar
+  950  du -sh  /home/damodar
+  951  du -shD  /home/damodar
+  952  du -sh -d  /home/damodar
+  953  history
+  954  du -sh * /home/damodar

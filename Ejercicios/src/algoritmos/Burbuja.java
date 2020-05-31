@@ -1,4 +1,4 @@
-package ejercicios;
+package algoritmos;
 
 public class Burbuja {
 	
