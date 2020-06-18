@@ -38,11 +38,28 @@ public class ArregloBinario {
 			}else if( elementoBusqueda == datos[ medio ] ){
 				superior = medio -1; // elimina la mitad superior
 			}else {
-				inferior = medio + 1; // elimina la mitad inferior
+				inferior = medio + 1; // elimina la mitad inferiorgst
 			}
+			medio = ( inferior + superior + 1 ) / 2;
+		} while ( ( inferior <= superior ) && ( ubicacion == -1 ) );
+		return ubicacion;
+	} // fin del metodo busqueda binaria
+	
+	public String elementosRestantes( int inferior, int superior ) {
+		StringBuilder temporal = new StringBuilder();
+		// imprime espacios para alineacion
+		for ( int i = 0; i < inferior; i++ ) {
+			temporal.append( " " );
 		}
-		
+		// imprime los elementos que quedan en el arreglo
+		for ( int i = inferior; i <= superior; i++ ) {
+			temporal.append( datos[ i ] + " " );
+		}
+		temporal.append( "\n" );
+		return temporal.toString();
+	} // fin del metodo elementosRestantes
+	
+	public String toString() {
+		return elementosRestantes( 0, datos.length - 1 );
 	}
-	
-	
 }
