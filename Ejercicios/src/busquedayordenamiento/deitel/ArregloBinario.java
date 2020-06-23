@@ -12,7 +12,7 @@ public class ArregloBinario {
 		datos = new int[ tamanio ]; // crea espacio para arreglo
 		// llena el arreglo con enteros aleatorios
 		for ( int i = 0; i < tamanio; i++ ) {
-			datos[ i ] = 10 + generador.nextInt();
+			datos[ i ] = 10 + generador.nextInt( 90 );
 		}
 		Arrays.sort( datos );
 	} // fin constructor
