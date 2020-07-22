@@ -38,7 +38,65 @@ public class OrdenamientoCombinacion {
 	private void combinar( int izquierdo, int medio1, int medio2, int derecho ) {
 		int indiceIzq = izquierdo;
 		int indiceDer = medio2;
+		int indiceCombinado = izquierdo;
+		int[] combinado = new int[ datos.length ];
+		
+		// imprime en pantalla los dos subarreglos antes de combinarlos
+		System.out.println( "combinacion: "+ subarreglo( izquierdo, medio1 ) );
+		System.out.println( "             "+ subarreglo( medio2, derecho ) );
+		
+		// combina los arreglos hasta llegar al final de uno de ellos
+		while ( indiceIzq <= medio1 && indiceDer <= derecho ) {
+			// coloca el menor de los dos elementos actuales en el resultado
+			// y lo mueve al siguiente espacio en los arreglos
+			if( datos[ indiceIzq ] <= datos[ indiceDer ] ) {
+				combinado[ indiceCombinado ++ ] = datos[ indiceIzq ++ ];
+			}else {
+				combinado[ indiceCombinado ++ ] = datos[ indiceDer ++ ];
+			}
+		} // fin while
+		
+		// si el arreglo izquierdo esta vacio
+		if ( indiceIzq == medio2 ) {
+			// copia el resto del arreglo derecho
+			while ( indiceDer <= derecho ) {
+				combinado[ indiceCombinado ++ ] = datos[ indiceDer ++ ];
+			}
+		}else { // arreglo derecho esta vacio
+			// copia el resto del arreglo izquierdo
+			while ( indiceIzq <= medio1 ) {
+				combinado[ indiceCombinado ++ ] = datos[ indiceIzq ++];
+			}
+		}
+		
+		// copia los valores de vuelta al arreglo original
+		for (int i = izquierdo; i <= derecho; i++) {
+			datos[ i ] = combinado[ i ];
+		}
+		
+		// imprime en pantalla el arreglo combinado
+		System.out.println( "       "+ subarreglo( izquierdo, derecho ) );
+		System.out.println();
+	} // fin del metodo combinar
+	
+	// metedo para imprimir en pantalla ciertos valores en el arreglo
+	public String subarreglo( int inferior, int superior ) {
+		StringBuilder temporal = new StringBuilder();
+		
+		// imprime en pantalla espacios para la alineacion
+		for (int i = 0; i < inferior; i++) {
+			temporal.append( "     " );
+		}
+		
+		// imprime en la pantalla el resto de los elementos en el arreglo
+		for (int i = inferior ; i <= superior; i++) {
+			temporal.append( " " + datos[ i ] );
+		}
+		
+		return temporal.toString();
+	} // fin del metodo  subbarreglo
+	
+	public String toString() {
+		return subarreglo( 0, datos.length - 1 );
 	}
-	
-	
 }
