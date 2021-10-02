@@ -3,7 +3,10 @@
 /.idea/
 /.sonarlint/
 
-Ejercicios/.settings
+Ejercicios/.settings/
 Ejercicios/.metadata/
 Ejercicios/.project/
-Ejercicios/.classpath
+Ejercicios/.classpath/
+
+/.classpath/
+/.project/
