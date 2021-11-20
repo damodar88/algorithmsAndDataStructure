@@ -1,4 +1,4 @@
-package algoritmos;
+package algoritmos.burbuja;
 
 public class Burbuja {
 	

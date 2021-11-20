@@ -13,9 +13,8 @@ public class Main {
 		
 		mostrar(new Triangulo(5,7,"verde"));
 		mostrar(new Circulo(4,"azul"));
-
 	}
-	
+
 	public static void mostrar(Figura f) {
 		System.out.println("El color de la figuro es "+ f.getColor() + " ");
 		System.out.println("El are de la figura es "+ f.area() + " ");

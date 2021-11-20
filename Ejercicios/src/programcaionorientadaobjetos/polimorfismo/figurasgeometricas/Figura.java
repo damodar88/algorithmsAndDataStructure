@@ -8,7 +8,6 @@ public abstract class Figura {
 		color = c;
 	}
 	
-	
 	public String getColor() {
 		return color;
 	}
