@@ -4,6 +4,8 @@ public class Burbuja {
 	
 	public static void main(String[] args) {
 		int arreglo[] = { 8,7,6,5,4,3,2,1 };
+		int arregloPrueba[] = { 8,7,6,5,4,3,2,1 };
+		
 		int aux;
 		System.out.println("Antes de ordenar: ");
 		
