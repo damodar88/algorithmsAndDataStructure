@@ -3,7 +3,7 @@ package algoritmos;
 public class Burbuja {
 	
 	public static void main(String[] args) {
-		int arreglo[] = { 9,8,7,6,5,4,3,2,1 };
+		int arreglo[] = { 8,7,6,5,4,3,2,1 };
 		int aux;
 		System.out.println("Antes de ordenar: ");
 		
