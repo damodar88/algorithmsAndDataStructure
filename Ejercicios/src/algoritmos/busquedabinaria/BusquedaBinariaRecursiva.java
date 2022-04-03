@@ -1,4 +1,4 @@
-package algoritmos.algoritmosguiailustrada;
+package algoritmos.busquedabinaria;
 
 public class BusquedaBinariaRecursiva {
 

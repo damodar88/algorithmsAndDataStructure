@@ -3,7 +3,7 @@ package genericos;
 public class ExceptionPilaLlena extends RuntimeException {
 
     public ExceptionPilaLlena() {
-        super("La Pila esta llena");
+        this("La Pila esta llena");
     }
 
     public ExceptionPilaLlena(String excepcion){
