@@ -1,4 +1,7 @@
-package genericos;
+package genericos.pila;
+
+import genericos.pila.ExceptionPilaLlena;
+import genericos.pila.ExceptionPilaVacia;
 
 public class Pila <E>{
 
@@ -27,7 +30,7 @@ public class Pila <E>{
         if (superior == -1){
             throw new ExceptionPilaVacia("La pila esta vacia, no se puede sacar");
         }
-        return elementos[superior --];
+        return elementos[superior-- ];
     }
 
 }

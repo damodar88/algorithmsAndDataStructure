@@ -1,4 +1,4 @@
-package genericos;
+package genericos.pila;
 
 public class PruebaPila {
 
@@ -23,7 +23,7 @@ public class PruebaPila {
         try {
             System.out.println("\nMete elementos en la pilaDouble");
             for (double elemento : elementosDouble) {
-                System.out.printf("%.1f", elemento);
+                System.out.printf("%.1f ", elemento);
                 pilaDouble.push(elemento);
             }
         }catch (ExceptionPilaLlena exceptionPilaLlena){
@@ -38,7 +38,7 @@ public class PruebaPila {
             double valorASacar;
             while (true){
                 valorASacar = pilaDouble.pop();
-                System.out.printf("%.1f", valorASacar);
+                System.out.printf("%.1f ", valorASacar);
             }
         }catch (ExceptionPilaVacia exceptionPilaVacia){
             System.out.println();
@@ -50,7 +50,7 @@ public class PruebaPila {
         try {
             System.out.println("\nMetiendo elementos a pilaInteger");
             for (int elemento : elementosInteger){
-                System.out.printf("%d", elemento);
+                System.out.printf("%d ", elemento);
                 pilaInteger.push(elemento);
             }
         }catch (ExceptionPilaLlena exceptionPilaLlena){
@@ -64,7 +64,7 @@ public class PruebaPila {
             int valerASacar;
             while (true){
                 valerASacar = pilaInteger.pop();
-                System.out.printf("%d", valerASacar);
+                System.out.printf("%d ", valerASacar);
             }
         }catch (ExceptionPilaVacia exceptionPilaVacia){
             System.out.println();

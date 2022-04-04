@@ -1,4 +1,4 @@
-package genericos;
+package genericos.pila;
 
 public class ExceptionPilaVacia extends RuntimeException {
 

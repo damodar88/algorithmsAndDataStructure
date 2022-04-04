@@ -1,4 +1,4 @@
-package genericos;
+package genericos.pila;
 
 public class ExceptionPilaLlena extends RuntimeException {
 
